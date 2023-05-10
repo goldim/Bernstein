@@ -267,9 +267,7 @@ qx.Theme.define("bernstein.theme.Appearance",
 
       style: function(states)
       {
-        var icon = states.undetermined ? states.disabled ? "decoration/checkbox/undetermined-disabled.png" :
-                                                           "decoration/checkbox/undetermined.png" :
-                                                           "";
+        var icon = "";
         return {
           icon: icon,
           gap: 8,
@@ -288,6 +286,8 @@ qx.Theme.define("bernstein.theme.Appearance",
 
         if (states.checked) {
           decorator += "-checked";
+        } else if (states.undetermined) {
+          decorator += "-undetermined";
         }
         
         if (states.disabled) {
@@ -2470,7 +2470,7 @@ qx.Theme.define("bernstein.theme.Appearance",
       style: function(states)
       {
         return {
-          textColor: "text-selected",
+          textColor: "text-app-header",
           backgroundColor: undefined,
           decorator: "tooltip-error",
           font: "bold",

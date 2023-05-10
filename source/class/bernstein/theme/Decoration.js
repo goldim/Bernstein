@@ -407,7 +407,52 @@ qx.Theme.define("bernstein.theme.Decoration",
         shadowColor: "invalid"
       }
     },
-    
+
+    "checkbox-undetermined":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
+    "checkbox-undetermined-disabled":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined-disabled.png"
+      }
+    },
+
+    "checkbox-undetermined-hovered":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
+    "checkbox-undetermined-invalid":
+    {
+      include: "checkbox-invalid",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
+    "checkbox-undetermined-focused":
+    {
+      include: "checkbox-focused",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
     /*
     ---------------------------------------------------------------------------
       COMBOBOX
