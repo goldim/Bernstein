@@ -12,6 +12,9 @@
 
 ************************************************************************ */
 
+/**
+ * @asset(resource/bernstein/fonts/fa-solid-900.ttf)
+ */
 qx.Theme.define("bernstein.theme.Font",
 {
   fonts:
@@ -71,7 +74,7 @@ qx.Theme.define("bernstein.theme.Font",
       sources: [
         {
           family: "FontAwesome",
-          source: ["resource/bernstein/fonts/fa-solid-900.ttf"]
+          source: ["bernstein/fonts/fa-solid-900.ttf"]
         }
       ]
     },
