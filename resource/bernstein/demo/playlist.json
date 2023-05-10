@@ -1,0 +1,20 @@
+{
+  "playlistData": [
+    {
+      "artist": "",
+      "album": "",
+      "albumCover": "",
+      "title": "",
+      "file": "",
+      "duration": "",
+      "homepage": "",
+      "wikipedia": "",
+      "video": {
+        "title": "",
+        "url": "",
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
