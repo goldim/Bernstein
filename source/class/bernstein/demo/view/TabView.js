@@ -72,12 +72,6 @@ qx.Class.define("bernstein.demo.view.TabView",
       var tab = new bernstein.demo.view.TabPage("Tab", classname, controls);
       this.add(tab);
 
-      // Embed
-      classname = "bernstein.demo.pages.Embed";
-      controls = {};
-      var embed = new bernstein.demo.view.TabPage("Embed", classname, controls);
-      this.add(embed);
-
       // EmbedFrame
       classname = "bernstein.demo.pages.EmbedFrame";
       controls = {};

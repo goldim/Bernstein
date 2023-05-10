@@ -62,11 +62,6 @@
              "include" : [ "bernstein.demo.pages.Tab" ]
            },
            
-           "embed" :
-           {
-             "include" : [ "bernstein.demo.pages.Embed" ]
-           },
-           
            "embedframe" :
            {
              "include" : [ "bernstein.demo.pages.EmbedFrame" ]

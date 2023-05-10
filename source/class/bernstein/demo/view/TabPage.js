@@ -25,7 +25,6 @@
  * @use(bernstein.demo.pages.ToolBar)
  * @use(bernstein.demo.pages.Window)
  * @use(bernstein.demo.pages.Tab)
- * @use(bernstein.demo.pages.Embed)
  * @use(bernstein.demo.pages.EmbedFrame)
  * @use(bernstein.demo.pages.Misc)
  */
