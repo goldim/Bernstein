@@ -31,42 +31,42 @@
            {
              "include" : [ "bernstein.demo.Application", "bernstein.theme.Theme", "qxl.formdemo" ]
            },
-           
+
            "form" :
            {
              "include" : [ "bernstein.demo.pages.Form" ]
            },
-           
+
            "tree" :
            {
              "include" : [ "bernstein.demo.pages.Tree" ]
            },
-           
+
            "list" :
            {
              "include" : [ "bernstein.demo.pages.List" ]
            },
-           
+
            "toolbar" :
            {
              "include" : [ "bernstein.demo.pages.ToolBar" ]
            },
-           
+
            "window" :
            {
              "include" : [ "bernstein.demo.pages.Window" ]
            },
-           
+
            "tab" :
            {
              "include" : [ "bernstein.demo.pages.Tab" ]
            },
-           
+
            "embedframe" :
            {
              "include" : [ "bernstein.demo.pages.EmbedFrame" ]
            },
-           
+
            "misc" :
            {
              "include" : [ "bernstein.demo.pages.Misc" ]
