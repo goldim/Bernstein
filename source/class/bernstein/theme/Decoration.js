@@ -718,29 +718,28 @@ qx.Theme.define("bernstein.theme.Decoration",
 
     "radiobutton-checked": 
     {
-      include: "button-checked",
+      include: "radiobutton",
       
       style: {
-        radius: 15,
-        shadowBlurRadius: 2
+        backgroundImage: "decoration/radiobutton/checked.png"
       }
     },
     
     "radiobutton-checked-hovered": 
     {
-      include: "radiobutton-checked",
+      include: "radiobutton",
       
       style: {
-        endColor: "text-hovered"
+        backgroundImage: "decoration/radiobutton/checked-focused.png"
       }
     },
 
     "radiobutton-checked-focused": 
     {
-      include: "radiobutton-checked",
+      include: "radiobutton",
       
       style: {
-        endColor: "text-hovered"
+        backgroundImage: "decoration/radiobutton/checked-focused.png"
       }
     },
 
@@ -764,10 +763,10 @@ qx.Theme.define("bernstein.theme.Decoration",
 
     "radiobutton-checked-disabled": 
     {
-      include: "button-checked-disabled",
+      include: "radiobutton",
       
       style: {
-        radius: 15
+        backgroundImage: "decoration/radiobutton/checked-disabled.png"
       }
     },
 
