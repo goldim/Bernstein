@@ -325,10 +325,10 @@ qx.Theme.define("bernstein.theme.Decoration",
 
     "checkbox-checked":
     {
-      include: "button-checked",
-      
+      include: "checkbox",
+
       style: {
-        radius: 2
+        backgroundImage: "decoration/checkbox/checked.png"
       }
     },
     
@@ -339,7 +339,11 @@ qx.Theme.define("bernstein.theme.Decoration",
     
     "checkbox-checked-hovered":
     {
-      include: "button-checked-hovered"
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/checked-focused.png"
+      }
     },
       
     "checkbox-focused": 
@@ -349,7 +353,11 @@ qx.Theme.define("bernstein.theme.Decoration",
     
     "checkbox-checked-focused":
     {
-      include: "checkbox-checked"
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/checked-focused.png"
+      }
     },
 
     "checkbox-disabled": 
@@ -364,7 +372,10 @@ qx.Theme.define("bernstein.theme.Decoration",
     
     "checkbox-checked-disabled":
     {
-      include: "button-checked-disabled"
+      include: "checkbox",
+      style: {
+        backgroundImage: "decoration/checkbox/checked-disabled.png"
+      }
     },
 
     "checkbox-invalid": 
