@@ -28,7 +28,7 @@ To use Bernstein in your application, go to the application root directory and i
 ```sh
 $ qx package update
 $ qx package list
-$ qx package install scro34/Bernstein
+$ qx package install goldim/Bernstein
 ```
 Now you just have to modify your compile.json to enable the theme:
 ```sh
@@ -41,6 +41,10 @@ Now you just have to modify your compile.json to enable the theme:
 ],
 ```
 
+## TODO list
+
+ - Try to replace web fonts instead of standard icons and make them optional
+
 <!-- LICENSE -->
 ## License
 
@@ -50,3 +54,4 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 ## Contact
 
 Norbert Schröder - [@scro34](http://scro34.de/) - email: n.schroeder@scro34.de
+Dmitrii Zolotov - [@goldim](https://github.com/goldim) - email: zolotovdy@yandex.ru
