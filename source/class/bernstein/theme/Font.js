@@ -64,20 +64,6 @@ qx.Theme.define("bernstein.theme.Font",
         [ "Lucida Grande" ] : 
         [ "MS Sans Serif", "Arial", "sans-serif" ],
       bold: true
-    },
-
-    "fontawesome": {
-      size: 14,
-      lineHeight: 1,
-      comparisonString: "\uf1e3\uf1f7\uf11b\uf19d",
-      family: ["FontAwesome"],
-      sources: [
-        {
-          family: "FontAwesome",
-          source: ["bernstein/fonts/fa-solid-900.ttf"]
-        }
-      ]
-    },
-    
+    }
   }
 });

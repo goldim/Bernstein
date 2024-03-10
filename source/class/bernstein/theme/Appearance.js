@@ -17,9 +17,21 @@
  *
  * @asset(bernstein/*)
  * 
+ * @asset(qx/icon/${qx.icontheme}/16/actions/dialog-ok.png)
+ * @asset(qx/icon/${qx.icontheme}/16/actions/dialog-cancel.png)
+ * @asset(qx/icon/${qx.icontheme}/16/actions/view-refresh.png)
+ * @asset(qx/icon/${qx.icontheme}/16/apps/office-calendar.png)
  * @asset(qx/icon/${qx.icontheme}/16/mimetypes/office-document.png)
  * @asset(qx/icon/${qx.icontheme}/16/places/folder.png)
  * @asset(qx/icon/${qx.icontheme}/16/places/folder-open.png)
+ *
+ * @asset(qx/icon/${qx.icontheme}/22/mimetypes/office-document.png)
+ * @asset(qx/icon/${qx.icontheme}/22/places/folder.png)
+ * @asset(qx/icon/${qx.icontheme}/22/places/folder-open.png)
+ *
+ * @asset(qx/icon/${qx.icontheme}/32/mimetypes/office-document.png)
+ * @asset(qx/icon/${qx.icontheme}/32/places/folder.png)
+ * @asset(qx/icon/${qx.icontheme}/32/places/folder-open.png)
  * 
  * @asset(qx/static/*)
  */
@@ -384,7 +396,7 @@ qx.Theme.define("bernstein.theme.Appearance",
       style: function(states)
       {
         return {
-          icon: "@fontawesome/f00c/14"
+          icon: "icon/16/actions/dialog-ok.png"
         };
       }
     },
@@ -397,7 +409,7 @@ qx.Theme.define("bernstein.theme.Appearance",
       style: function(states)
       {
         return {
-          icon: "@fontawesome/f00d/14"
+          icon: "icon/16/actions/dialog-cancel.png"
         };
       }
     },
@@ -843,7 +855,7 @@ qx.Theme.define("bernstein.theme.Appearance",
       style: function(states)
       {
         return {
-          icon: "@fontawesome/f073/16",
+          icon: "icon/16/apps/office-calendar.png",
           padding: [1, 3],
           margin: 0
         };
@@ -1872,7 +1884,7 @@ qx.Theme.define("bernstein.theme.Appearance",
       style: function()
       {
         return {
-          icon: "@fontawesome/f2f9/14"
+          icon: "icon/16/actions/view-refresh.png"
         };
       }
     },
@@ -2557,14 +2569,14 @@ qx.Theme.define("bernstein.theme.Appearance",
       {
         var icon, iconOpened;
         if (states.small) {
-          icon = states.opened ? "@fontawesome/f07c/10" : "@fontawesome/f07b/10";
-          iconOpened = "@fontawesome/f07c/10";
+          icon = states.opened ? "icon/16/places/folder-open.png" : "icon/16/places/folder.png";
+          iconOpened = "icon/16/places/folder-open.png";
         } else if (states.large) {
-          icon = states.opened ? "@fontawesome/f07c/26" : "@fontawesome/f07b/26";
-          iconOpened = "@fontawesome/f07c/26";
+          icon = states.opened ? "icon/32/places/folder-open.png" : "icon/32/places/folder.png";
+          iconOpened = "icon/32/places/folder-open.png";
         } else {
-          icon = states.opened ? "@fontawesome/f07c/16" : "@fontawesome/f07b/16";
-          iconOpened = "@fontawesome/f07c/16";
+          icon = states.opened ? "icon/22/places/folder-open.png" : "icon/22/places/folder.png";
+          iconOpened = "icon/22/places/folder-open.png";
         }
 
         return {
@@ -2583,9 +2595,9 @@ qx.Theme.define("bernstein.theme.Appearance",
       {
         return {
           icon:
-            states.small ? "@fontawesome/f15b/10" :
-            states.large ? "@fontawesome/f15b/26" :
-            "@fontawesome/f15b/16"
+            states.small ? "icon/16/mimetypes/office-document.png" :
+            states.large ? "icon/32/mimetypes/office-document.png" :
+            "icon/22/mimetypes/office-document.png"
         };
       }
     },

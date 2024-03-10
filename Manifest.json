@@ -22,7 +22,7 @@
     "translation": "source/translation"
   },
   "requires": {
-    "@qooxdoo/framework": "^7.0.0",
+    "@qooxdoo/framework": "^7.6.3",
     "qooxdoo/qxl.formdemo": "^2.0.0"
   }
 }

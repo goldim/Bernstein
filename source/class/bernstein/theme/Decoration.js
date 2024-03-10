@@ -718,28 +718,29 @@ qx.Theme.define("bernstein.theme.Decoration",
 
     "radiobutton-checked": 
     {
-      include: "radiobutton",
-      
+      include: "button-checked",
+
       style: {
-        backgroundImage: "decoration/radiobutton/checked.png"
+        radius: 15,
+        shadowBlurRadius: 2
       }
     },
-    
+
     "radiobutton-checked-hovered": 
     {
-      include: "radiobutton",
-      
+      include: "radiobutton-checked",
+
       style: {
-        backgroundImage: "decoration/radiobutton/checked-focused.png"
+        endColor: "text-hovered"
       }
     },
 
     "radiobutton-checked-focused": 
     {
-      include: "radiobutton",
-      
+      include: "radiobutton-checked",
+
       style: {
-        backgroundImage: "decoration/radiobutton/checked-focused.png"
+        endColor: "text-hovered"
       }
     },
 
@@ -763,10 +764,10 @@ qx.Theme.define("bernstein.theme.Decoration",
 
     "radiobutton-checked-disabled": 
     {
-      include: "radiobutton",
-      
+      include: "button-checked-disabled",
+
       style: {
-        backgroundImage: "decoration/radiobutton/checked-disabled.png"
+        radius: 15
       }
     },
 
@@ -1634,7 +1635,11 @@ qx.Theme.define("bernstein.theme.Decoration",
         shadowColor: "close-button-hovered",
         endColor: "close-button-hovered"
       }
+    },
+
+    // Demo decorators
+    "theme-demo-title-separator": { 
+      include: "radiobutton-checked-hovered"
     }
-    
   }
 });

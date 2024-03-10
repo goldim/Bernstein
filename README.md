@@ -22,8 +22,6 @@ only very few image files are involved, which makes it a relatively lean theme c
 **Form Controls**
 <img src="widgetbrowser.png" alt="Screen shot example">
 
-<p>Instead of one of qooxdoo's icon themes &laquo;Bernstein&raquo; (and its accompanying demo application) now includes the <a href="https://fontawesome.com" target="_blank">Font Awesome</a> icon font (v.5.15.3). If you want to use the font icons in your own Bernstein-based aplication, please refer to the <a href="https://qooxdoo.org/documentation/6.0/#/development/howto/icon_fonts?id=using-icon-fonts" target="_blank">qooxdoo documentation</a> or the source code of this demo on how to do that.</p>
-
 <!-- GETTING STARTED -->
 ## Using the Theme in your Application
 To use Bernstein in your application, go to the application root directory and install the theme into your project:
