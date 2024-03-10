@@ -13,7 +13,7 @@
 </p>
 
 <!-- ABOUT THE PROJECT -->
-## About the &laquo;Bernstein&raquo; theme (v2.0.0)
+## About the &laquo;Bernstein&raquo; theme (v2.1)
 
 <p>&laquo;Bernstein&raquo; (engl. <i>amber</i>) is a dark theme for desktop applications written in qooxdoo v3.0 or above. It has now - at long last - been adapted to qooxdoo v6.0.0 (thanks to Dmitry Zolotov, aka <a href="https://github.com/goldim" target="_blank">goldim</a>).</p>
 <p>The decorators of the theme are mainly based on gradients and shadows, i. e.
