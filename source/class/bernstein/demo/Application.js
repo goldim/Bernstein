@@ -23,6 +23,10 @@ qx.Class.define("bernstein.demo.Application",
   members: {
     main() {
       super.main({ about_url: "bernstein/about.html" });
+    },
+
+    _getCustomIcons(){
+      return new bernstein.demo.Icons();
     }
   }
 });
