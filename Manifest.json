@@ -1,15 +1,19 @@
 {
   "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
   "info": {
-    "name": "bernstein.demo",
+    "name": "BernsteinTheme",
     "summary": "Bernstein Theme Contribution",
     "description": "A bernstein theme for qx 7.0",
-    "homepage": "https://github.com/scro34/Bernstein",
+    "homepage": "https://github.com/goldim/Bernstein",
     "license": "MIT license",
     "authors": [
       {
-        "name": "Norbert Schröder",
-        "email": "(scro34)"
+        "name": "Norbert Schröder (scro34)",
+        "email": "n.schroeder@scro34.de"
+      },
+      {
+        "name": "Dmitrii Zolotov (goldim)",
+        "email": "zolotovdy@yandex.ru"
       }
     ],
     "version": "2.1.3"

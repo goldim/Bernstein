@@ -31,7 +31,7 @@ $ qx package list
 $ qx package install goldim/Bernstein
 ```
 Now you just have to modify your compile.json to enable the theme:
-```sh
+```json
 "applications": [
   {
     ...
@@ -40,10 +40,6 @@ Now you just have to modify your compile.json to enable the theme:
   }
 ],
 ```
-
-## TODO list
-
- - Try to replace web fonts instead of standard icons and make them optional
 
 <!-- LICENSE -->
 ## License
